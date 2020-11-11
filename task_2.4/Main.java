@@ -2,8 +2,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
       Scanner scan = new Scanner(System.in);
-      int a = scan.nextInt();
+      double a = scan.nextDouble();
       double b = scan.nextDouble();
-      double c =(a*(b/100));
-   // цикл
-System.out.println (c); }
+        for (int i = 0; i < 6; i++) {
+            a*=(1.0+b*0.01);
+            System.out.println(i+1 + "-й год:" + a);  
+        }
+    }  
+}
