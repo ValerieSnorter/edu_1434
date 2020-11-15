@@ -7,7 +7,7 @@ public class Main {
       Scanner scan = new Scanner(System.in);
       int namber = scan.nextInt();
       int c = (namber*namber);
-      if (namber==25) System.out.println(c);
+      System.out.println(c);
         
     }
 }
